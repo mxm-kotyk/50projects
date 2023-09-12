@@ -16,8 +16,9 @@ body {
 }
 
 .back-link {
-  margin-left: 20px;
-  align-self: baseline;
+  position: absolute;
+  top: 10px;
+  left: 20px;
 }
 
 .container {
