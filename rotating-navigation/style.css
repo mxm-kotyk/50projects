@@ -29,13 +29,13 @@ body {
   &.show-nav {
     transform: rotate(-20deg);
 
-    &+nav li {
+    &~nav li {
       transform: translateX(0);
       transition-delay: 300ms;
     }
 
-    & .circle {
-      transform: rotate(-70deg);
+    &+.circle-container {
+      transform: rotate(-90deg);
     }
   }
 }
@@ -44,6 +44,7 @@ body {
   position: fixed;
   top: -100px;
   left: -100px;
+  transition: transform 500ms linear;
 }
 
 .circle {
