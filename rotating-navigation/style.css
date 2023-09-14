@@ -23,7 +23,9 @@ body {
   transform-origin: top left;
   transition: transform 500ms linear;
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
+  position: fixed;
+  overflow: auto;
   padding: 50px;
 
   &.show-nav {
@@ -120,6 +122,7 @@ nav {
 .content {
   max-width: 1000px;
   margin: 50px auto;
+  overflow: auto;
 
   & h1 {
     margin: 0;
@@ -138,4 +141,12 @@ nav {
   & img {
     max-width: 100%;
   }
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.enlarged {
+  height: 200vh;
 }
