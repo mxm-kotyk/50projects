@@ -86,14 +86,8 @@ h1 {
 .left {
   left: 0;
   background: url('./nsom.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
 
   &::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background-color: var(--left-bg-color);
   }
 }
@@ -101,6 +95,15 @@ h1 {
 .right {
   right: 0;
   background: url('./sd.jpg');
+
+  &::before {
+    background-color: var(--right-bg-color);
+  }
+}
+
+.left,
+.right {
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -109,8 +112,14 @@ h1 {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: var(--right-bg-color);
   }
+}
+
+
+
+.hover-left .left::before,
+.hover-right .right::before {
+  background-color: transparent;
 }
 
 .right,
