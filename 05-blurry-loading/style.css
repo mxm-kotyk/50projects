@@ -22,7 +22,6 @@ body {
 
 .bg {
   background: url('https://images.unsplash.com/photo-1529154166925-574a0236a4f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80') no-repeat center center/100%;
-  /* background: url('https://images.unsplash.com/photo-1682524124128-ec3109035d15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80') no-repeat center center/100%; */
   background-position: top -20% left 0;
   position: absolute;
   top: -30px;
