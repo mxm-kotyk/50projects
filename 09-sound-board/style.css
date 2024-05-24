@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(161, 100, 223);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.back-link {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 2;
+}
+
+.button {
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 150ms ease-in;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
